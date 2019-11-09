@@ -2,11 +2,11 @@ require 'pp'
 
 # Write your code here.
 def line(katz_deli)
-  if deli.empty?
+  if katz_deli.empty?
     puts "The line is currently empty."
   else
     line = "The line is currently:"
-    deli.each.with_index(1) do |name, i|
+    katz_deli.each.with_index(1) do |name, i|
       line << " #{i}, #{name}"
     end
     puts line
